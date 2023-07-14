@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Sobre mi{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/aboutme.png' %}{% endblock %}
+
+{% block headers %}
+<h1>Miguel Angel Moyano</h1>
+<span class="subheading">Sobre mi</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+	<div class="row">   
+	  <div class="col-lg-3 col-md-4 offset-lg-1">
+		<img class="img-fluid avatar" src="img/avatar.png" alt="">
+	  </div>
+	  <div class="col-lg-7 col-md-8">
+		<h2 class="section-heading">Miguel Angel Moyano</h2>   
+		<p>Abogado y Desarrolladro Full Stack, soy de la ciudad de Mar del Plata, Argentina</p>
+		<p> Buscando hoy nuevos horizontes, he tomado cursos de Desarrollo Web, JavaScripty, ReactJS y Wordpress en Coderhouse y Python en Codo a Codo, introduciendome en el mundo del software y la informática. Es por ello que me estoy interesado en insertarme en dicho ámbito, en empresas líderes del sector, ya que pienso que tengo qué aportar a las mismas</p>
+	  </div>
+	</div> 
+{% endblock %}
